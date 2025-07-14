@@ -94,7 +94,7 @@ const LoginPopup = ({ setShowLogin }) => {
         </div>
         {currState === "Login" ? (
           <p>
-            Don't have an account?{" "}
+            Don't have an account?{" "} 
             <span onClick={() => setCurrState("Sign Up")}>Sign Up</span>
           </p>
         ) : (
